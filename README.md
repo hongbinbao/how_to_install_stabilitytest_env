@@ -20,4 +20,10 @@ how_to_install_stabilitytest_env
 17: $make
 18:  make install 
 (make need to update: sudo apt-get install g++ curl libssl-dev apache2-utils)
+19: sudo apt-get install git (if no git installed)
+20: git clone https://github.com/xiaocong/remote-task-workstation 
+21  cd remote-task-workstation
+22  $npm install
+
+2F=MIWIFI
 
