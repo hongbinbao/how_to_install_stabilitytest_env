@@ -30,5 +30,5 @@
       sudo update-alternatives --install "/usr/bin/java" "java" "/opt/java/64/jdkXXX/bin/java" 1
       sudo update-alternatives --set java /opt/java/64/jdkXXX/bin/java
 
-    if adb unavailable.
+    if adb unavailable:
     sudo apt-get install -y libc6-i386 lib32stdc++6 lib32gcc1 lib32ncurses5 lib32z1
