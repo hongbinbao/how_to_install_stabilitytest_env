@@ -10,7 +10,7 @@
     7:  sudo apt-get install python numpy
     8:  sudo pip install uiautomator
     9:  sudo pip install uiautomatorplug
-   10: sudo pip install customnoseplugins 
+    10: sudo pip install customnoseplugins 
 #### remote task workstation installation
-     ref: https://github.com/xiaocong/remote-task-workstation
+    ref: https://github.com/xiaocong/remote-task-workstation
 
