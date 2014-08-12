@@ -1,6 +1,5 @@
 
 ### stability test case development environment installation
-    for test case development
     1:  JDK1.6
     2:  Android SDK
     3:  android ADB available in system $PATH
