@@ -1,5 +1,5 @@
 
-### stability test case development environment
+### stability test case development environment installation
     for test case development
     1:  JDK1.6
     2:  Android SDK
@@ -11,6 +11,6 @@
     8:  sudo pip install uiautomator
     9:  sudo pip install uiautomatorplug
    10: sudo pip install customnoseplugins 
-#### remote task workstation### 
+#### remote task workstation installation
      ref: https://github.com/xiaocong/remote-task-workstation
 
