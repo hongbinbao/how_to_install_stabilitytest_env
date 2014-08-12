@@ -13,5 +13,4 @@
     10: sudo pip install customnoseplugins 
 #### remote task workstation installation
     ref: https://github.com/xiaocong/remote-task-workstation
-    [releases](https://github.com/hongbinbao/noserunner/releases/latest)
 
