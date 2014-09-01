@@ -8,27 +8,21 @@
        sudo chmod 777 androidenv/jdk/jdk-6u45-linux-x64.bin
        ./jdk-6u45-linux-x64.bin
 
-    3: download SDK and unzip it to /home/user/androidenv/sdk
+    [install JDK automaticlly:
+    $ [sudo] apt-get install software-properties-common
+    $ [sudo] add-apt-repository ppa:webupd8team/java
+    $ [sudo] apt-get update
+    $ [sudo] apt-get install oracle-java6-installer
 
-    4: add java and android into system PATH:
-    $gedit ~/.bashrc
-    ##JAVA environment configuration
-    ##This is added by user. please check JAVA works well. 
-    export JAVA_HOME=/home/user/androidenv/jdk/jdk1.6.0_45/
-    export CLASS_PATH=.:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar
-    export PATH=$PATH:.:$JAVA_HOME/bin:$JAVA_HOME/jre/bin
-    ##Enf JAVA configuration 
+    3: download SDK and unzip it to /home/user/androidenv/sdk]
 
-    $gedit ~/.bashrc
-    ##Android SDK configuration
-    ##Set adb and Android debug tool environment path
-    export ANDROID_HOME=/home/user/androidenv/sdk/android-sdk-linux
-    export PATH=$PATH:$ANDROID_HOME/platform-tools:$ANDROID_HOME/tools
-    ##End Android SDK configuration
+    4: add ADB in to system PATH:
+    $ cd /usr/bin
+    $ sudo ln ABSPATH_OF_ADB
+    $ sudo chown root:root /usr/bin/adb
+    $ sudo chmod u+s /sur/bin/adb
 
-    5: add java link
-      sudo update-alternatives --install "/usr/bin/java" "java" "/opt/java/64/jdkXXX/bin/java" 1
-      sudo update-alternatives --set java /opt/java/64/jdkXXX/bin/java
 
-    if adb unavailable:
+    NOTE: 
+    1: if adb unavailable:
     sudo apt-get install -y libc6-i386 lib32stdc++6 lib32gcc1 lib32ncurses5 lib32z1
