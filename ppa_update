@@ -1,0 +1,6 @@
+1: 404 not found:
+  sudo apt-get update | grep "Failed"
+
+2: sudo add-apt-repository --remove ppa:xxxx
+
+3: apt-get update
