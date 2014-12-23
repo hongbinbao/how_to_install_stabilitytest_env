@@ -1,6 +1,10 @@
-1: 404 not found:
-  sudo apt-get update | grep "Failed"
+ppa outof data
+--------------
+### 1: 404 not found
+    sudo apt-get update | grep "Failed"
 
-2: sudo add-apt-repository --remove ppa:xxxx
+### remove ppa source
+    sudo add-apt-repository --remove ppa:xxxx
 
-3: apt-get update
+###3: update ppa source
+    apt-get update
